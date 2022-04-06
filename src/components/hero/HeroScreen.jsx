@@ -23,9 +23,12 @@ export const HeroScreen = () => {
     return (
         <div className="row mt-5">
             <div className="col-4">
-                <img src={ imagePath } alt={ superhero } className="img-thumbnail" />
+                <img 
+                    src={ imagePath } alt={ superhero } 
+                    className="img-thumbnail animate__animated animate__fadeInLeft"
+                />
             </div>
-            <div className="col-8">
+            <div className="col-8 animate__animated animate__fadeIn">
                 <h3>{ superhero }</h3>
                 <ul className="list-group list-group-flush">
                     <li className="list-group-item"><b>Alter ego: </b>{ alter_ego }</li>

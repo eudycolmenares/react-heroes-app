@@ -58,6 +58,7 @@ export const SearchScreen = () => {
                             <HeroCard 
                                 key={ hero.id }
                                 { ...hero }
+                                className="mb-3"
                             />
                         ))
                     }
